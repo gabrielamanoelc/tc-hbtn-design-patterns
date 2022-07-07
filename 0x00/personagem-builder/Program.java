@@ -33,12 +33,3 @@ public class Program {
           }
       }
   }
-     rizzo@ubuntu:0x00/personagem-builder$
-  rizzo@ubuntu:0x00/personagem-builder$ ls
-  Builder.java   Guerreiro.java         Ladrao.java         Mago.java         Personagem.java  TipoPersonagem.java
-  Director.java  GuerreiroBuilder.java  LadraoBuilder.java  MagoBuilder.java  Program.java
-  rizzo@ubuntu:0x00/personagem-builder$ javac Program.java
-  rizzo@ubuntu:0x00/personagem-builder$ java Program
-  Personagem { nome = Mago, tipo = MAGO, inteligencia = 10, forca = 2, vigor = 5, resistencia = 3, destreza = 4, dano ataque = 8,80 }
-  Personagem { nome = Ladrao, tipo = LADRAO, inteligencia = 2, forca = 6, vigor = 8, resistencia = 5, destreza = 10, dano ataque = 7,40 }
-  Personagem { nome = Guerreiro, tipo = GUERREIRO, inteligencia = 1, forca = 8, vigor = 5, resistencia = 10, destreza = 6, dano ataque = 7,30 }
