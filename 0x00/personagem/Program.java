@@ -67,20 +67,3 @@ public class Program {
           }          
       }
   }
-
-rizzo@ubuntu:0x00/personagem$
-  rizzo@ubuntu:0x00/personagem$ ls
-  Guerreiro.java  Mago.java        PersonagemFactory.java  TerraMediaPersonagemFactory.java  WesterosPersonagemFactory.java Ladrao.java     Personagem.java  Program.java            TipoPersonagem.java
-  rizzo@ubuntu:0x00/personagem$ javac Program.java
-  rizzo@ubuntu:0x00/personagem$ java Program
-  Personagem { nome = Gandalf, tipo = MAGO, inteligencia = 8, forca = 3, vigor = 3, resistencia = 3, destreza = 4, dano ataque = 7,05 }
-  Personagem { nome = Frodo, tipo = LADRAO, inteligencia = 1, forca = 8, vigor = 7, resistencia = 7, destreza = 10, dano ataque = 8,25 }
-  Personagem { nome = Aragorn, tipo = GUERREIRO, inteligencia = 0, forca = 9, vigor = 7, resistencia = 10, destreza = 7, dano 
-  ataque = 8,25 }
-  Personagem { nome = Melisandre, tipo = MAGO, inteligencia = 10, forca = 2, vigor = 5, resistencia = 3, destreza = 4, dano ataque = 8,80 }
-  Personagem { nome = Oberyn Martell, tipo = LADRAO, inteligencia = 2, forca = 6, vigor = 8, resistencia = 5, destreza = 10, dano ataque = 7,40 }
-  Personagem { nome = Khal Drogo, tipo = GUERREIRO, inteligencia = 1, forca = 8, vigor = 5, resistencia = 10, destreza = 6, dano ataque = 7,30 }
-  Atributos invalidos para GUERREIRO
-  Atributos invalidos para LADRAO
-  Atributos invalidos para MAGO
-  rizzo@ubuntu:0x00/personagem$
