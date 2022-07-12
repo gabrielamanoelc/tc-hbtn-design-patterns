@@ -1,1 +1,16 @@
- 
+ O que é Arquitetura Hexagonal e por quem ela foi criada ?
+ Arquitetura hexagonal, consiste em dividir uma aplicação em camadas de acordo com suas responsabilidades e enfatizar uma camada em especial, onde ficará a lógica principal da aplicação, a camada de domínio ou domain (do termo original).
+ Foi criada por Alistair Cockburn
+
+
+Quais são os benefícios e recursos que Arquitetura Hexagonal fornece?
+A vantagem dessa divisão é desacoplar esses dois tipos de classes. Assim, as classes de domínio não conhecem as tecnologias – bancos de dados, interfaces com usuário e quaisquer outras bibliotecas – usadas pelo sistema. Consequentemente, mudanças de tecnologia podem ser feitas sem impactar as classes de domínio.
+
+Quais as diferenças entre Arquitetura Hexagonal e Clean Architecture ?
+Clean architecture
+Assemelha-se à proposta da Hexagonal Architecture, mas segue a linha proposta por outro padrão, o Onion architecture. É outra forma de representar a hierarquia entre as camadas, mas mantendo as premissas de isolamento e inversão de dependências.
+
+
+Na sua opinião, a Arquitetura Hexagonal pode ser utilizada em qualquer tipo de projeto ? Quais informações devem ser consideradas antes de desenvolver sistemas usando esse padrão de projeto ?
+Sim, antes deve ser feito uma análise da estrutura do projeto, pois embora ela possa ser aplicada a qualquer projeto, deve se utilizar a arquietura que melhor corresponder com os requisitos de tal projeto
+
